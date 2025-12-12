@@ -33,10 +33,12 @@ p{
     background-color:black;
     height:38.5vw;
     width:100vw;
+    min-height:100vw;
 }
 #baner > section{
     background-color:red;
     height:38.5vw;
+    min-height:100vw;
 }
 #baner > section > img{
     height:300px;
@@ -47,24 +49,28 @@ p{
 #temas{
     background-color: chocolate;
     height:50vw; 
+    min-height:100vw;
 }
 
 
 #tema1{
     background-color: brown;
     height:50vw;
+    min-height:100vw;
 }
 
 
 #tema2{
     background-color: blue; 
     height:50vw;
+    min-height:100vw;
 }
 
 
 #tema3{
     background-color: darkgreen;
     height:50vw;
+    min-height:100vw;
 }
 
 
