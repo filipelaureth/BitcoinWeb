@@ -1,52 +1,75 @@
 *{
- padding:0px;
- margin:0px;
+    margin:0px;
+    padding:0px;
 }
-#inicio{
-    width:900px;
-    height:630px;
-    margin:0 auto;
-    display:flex;
+
+
+header{
+    background-color: rgb(99, 99, 99);
+    width:100vw;
+    height:5em;
 }
-#destaque{
-    color:#ffde59;
-}
+
 main{
-    background-image:linear-gradient(to right,#101010,#3d3d3f,#101010);
-    height:630px;
-    width:100%;
+    width:100vw;
 }
-img{
+
+section{
+    max-width:65em;
+    margin:auto;
+}
+
+h1{
+    color:#ffffff;
+}
+
+p{
+    color:#ffffff;
+}
+
+
+
+#baner{
+    background-color:black;
+    height:38.5vw;
+    width:100vw;
+}
+#baner > section{
+    background-color:red;
+    height:38.5vw;
+}
+#baner > section > img{
     height:300px;
     width:300px;
-    margin-top:200px;
-    
 }
-h1{
-    font-size:60px;
-    margin-top:130px;
-    padding-left:30px;
-    color:#ffffff; 
-    text-shadow: -0.05em 0.05em 0.05em #333
-    
+
+
+#temas{
+    background-color: chocolate;
+    height:50vw; 
 }
-p{
-    margin-top:30px;
-    padding-left:30px;
-    font-size:28px;
-    color:#ffffff;
-    text-shadow: -0.1em 0.01em 0.09em #333
-    
+
+
+#tema1{
+    background-color: brown;
+    height:50vw;
 }
-button{
-    border:0px;
-    border-radius:15px;
-    width:130px;
-    height:40px;
-    margin-top:20px;
-    margin-left:30px;
-    font-size:20px;
-    background-color:#6aeb35;
-    color: #ffffff;
-    box-shadow: -3px 3px 10px black
+
+
+#tema2{
+    background-color: blue; 
+    height:50vw;
+}
+
+
+#tema3{
+    background-color: darkgreen;
+    height:50vw;
+}
+
+
+footer{
+    background-color: black;
+    width:100vw;
+    height:5em;
 }
