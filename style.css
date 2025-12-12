@@ -33,12 +33,10 @@ p{
     background-color:black;
     height:38.5vw;
     width:100vw;
-    min-height:5.5in;
 }
 #baner > section{
     background-color:red;
     height:38.5vw;
-    min-height:5.5in;
 }
 #baner > section > img{
     height:300px;
@@ -49,28 +47,24 @@ p{
 #temas{
     background-color: chocolate;
     height:50vw; 
-    min-height:5.5in;
 }
 
 
 #tema1{
     background-color: brown;
     height:50vw;
-    min-height:5.5in;
 }
 
 
 #tema2{
     background-color: blue; 
     height:50vw;
-    min-height:5.5in;
 }
 
 
 #tema3{
     background-color: darkgreen;
     height:50vw;
-    min-height:5.5in;
 }
 
 
@@ -78,4 +72,10 @@ footer{
     background-color: black;
     width:100vw;
     height:5em;
+}
+
+@media screen and (max-width:600px){
+    {
+        background-color:blue;
+    }
 }
