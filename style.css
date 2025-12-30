@@ -6,12 +6,12 @@
 
 header{
     background-color: rgb(99, 99, 99);
-    width:100vw;
+    width:98.9vw;
     height:5em;
 }
 
 main{
-    width:100vw;
+    width:98.9vw;
 }
 
 section{
@@ -21,26 +21,57 @@ section{
 
 h1{
     color:#ffffff;
+   
 }
 
 p{
     color:#ffffff;
+    
 }
 
+.destaque{
+    color: #f1cd01;
+}
 
 
 #baner{
     background-color:black;
-    height:38.5vw;
-    width:100vw;
+    height:38.9vw;
+    width:98.9vw;
 }
 #baner > section{
-    background-color:red;
-    height:38.5vw;
+    height:38.9vw;
+    display: flex;
 }
 #baner > section > img{
     height:300px;
     width:300px;
+    padding:10px;
+    margin-top:85px;
+    margin-left:40px;
+}
+#baner > section > div {
+    width:600px;
+    margin-top:65px;
+    padding-left:20px;
+}
+#baner > section > div > h1 {
+    font-size:50px;
+    margin-bottom:30px;
+}
+#baner > section > div > p {
+    font-size:30px;
+    margin-bottom:20px;
+    width:580px;
+}
+#baner > section > div > button{
+    width: 130px;
+    height: 45px;
+    font-size: 20px;
+    color: #ffffff;
+    background-color:green;
+    border-radius:20px;
+
 }
 
 
@@ -70,12 +101,8 @@ p{
 
 footer{
     background-color: black;
-    width:100vw;
+    width:98.9vw;
     height:5em;
 }
 
-@media screen and (max-width:600px){
-    {
-        background-color:blue;
-    }
-}
+/*@media screen and (max-width:600px)*/
